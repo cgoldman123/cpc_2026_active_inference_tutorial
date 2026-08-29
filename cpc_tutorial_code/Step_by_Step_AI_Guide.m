@@ -9,8 +9,8 @@
 
 % First, you need to add SPM12, the DEM toolbox of SPM12 and the
 % folder with the example scripts to your path in Matlab like so:
-addpath('C:\Users\CGoldman\spm12\')
-addpath('C:\Users\CGoldman\spm12\toolbox\DEM\')
+addpath('/Users/cg610/spm/')
+addpath('/Users/cg610/spm/toolbox/DEM/')
 
 clear all
 close all      % These commands clear the workspace and close any figures
@@ -50,7 +50,7 @@ rs1 = 2.5; % Risk-seeking parameter (set to the variable rs below)
          % To reproduce fig. 11, use values of 3 or 4 (with Sim = 3)
          % This will have no effect on Sim = 4 or Sim = 5
 
-Sim = 3;
+Sim = 1;
 
 % When Sim = 5, if PEB = 1 the script will run simulated group-level
 % (Parametric Empirical Bayes) analyses.

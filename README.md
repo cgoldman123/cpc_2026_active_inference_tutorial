@@ -1,6 +1,6 @@
-# Active Inference Workshop – Computational Psychiatry Course 2025
+# Active Inference Workshop – Computational Psychiatry Course 2026
 
-Welcome to the repository for the **Active Inference Workshop** at the 2025 Computational Psychiatry Course.  
+Welcome to the repository for the **Active Inference Workshop** at the 2026 Computational Psychiatry Course.  
 This repo contains all the materials you will need to follow along with the workshop sessions.
 
 ---
