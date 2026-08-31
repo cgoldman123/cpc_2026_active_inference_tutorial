@@ -115,7 +115,7 @@ for i=1:t/h-1
     end
     
     %% Update sensory input according to the actions taken
-    ddq(:,i) = RealrobotDynamics(q(1,i),q(2,i),dq(1,i),dq(2,i),u(1,i),u(2,i));
+    ddq(:,i) = CAI_RealrobotDynamics(q(1,i),q(2,i),dq(1,i),dq(2,i),u(1,i),u(2,i));
     dq(:,i+1) = dq(:,i)+h*ddq(:,i);
     q(:,i+1) = q(:,i)+h*dq(:,i);
     

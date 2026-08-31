@@ -1,4 +1,4 @@
-function ddq = RealrobotDynamics(q1,q2,dq1,dq2,tau1,tau2)
+function ddq = CAI_RealrobotDynamics(q1,q2,dq1,dq2,tau1,tau2)
 % Pezzato C., Ferrari, R., Henrandez C., A Novel Adaptive Controller for Robot Manipulators Based on Active Inference, IEEE Robotics and Automation Letters, 2020.
 
 % Dynamic model of a planar 2DOF manipulator 
